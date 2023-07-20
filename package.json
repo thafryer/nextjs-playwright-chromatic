@@ -7,7 +7,9 @@
     "test:e2e": "playwright test",
     "archive-storybook": "archive-storybook",
     "build-archive-storybook": "build-archive-storybook",
-    "chromatic": "npx chromatic --build-script-name=build-archive-storybook -t=chpt_723fb3641d10d51"
+    "chromatic": "npx chromatic --build-script-name=build-archive-storybook -t=REPLACE_ME",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "next": "latest",
@@ -15,8 +17,20 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@chromaui/archive-storybook": "^0.0.6",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@chromaui/archive-storybook": "^0.0.7--canary.2.1bca1ed.0",
     "@chromaui/test-archiver": "^0.0.12",
-    "@playwright/test": "^1.15.0"
+    "@playwright/test": "^1.15.0",
+    "@storybook/addon-essentials": "^7.1.0",
+    "@storybook/addon-interactions": "^7.1.0",
+    "@storybook/addon-links": "^7.1.0",
+    "@storybook/addon-onboarding": "^1.0.7",
+    "@storybook/blocks": "^7.1.0",
+    "@storybook/react": "^7.1.0",
+    "@storybook/react-webpack5": "^7.1.0",
+    "@storybook/testing-library": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.1.0"
   }
 }

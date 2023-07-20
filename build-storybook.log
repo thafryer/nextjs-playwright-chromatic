@@ -1,0 +1,54 @@
+@storybook/cli v7.1.0
+
+info => Cleaning outputDir: /storybook-static
+ERR! /Users/thafryer/Tutorials/with-playwright-app/node_modules/@chromaui/archive-storybook/config/main.js:15
+ERR! export default config;
+ERR! ^^^^^^
+ERR! 
+ERR! SyntaxError: Unexpected token 'export'
+ERR!     at Object.compileFunction (node:vm:360:18)
+ERR!     at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+ERR!     at Module._compile (node:internal/modules/cjs/loader:1119:27)
+ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+ERR!     at Object.newLoader (/Users/thafryer/Tutorials/with-playwright-app/node_modules/esbuild-register/dist/node.js:2262:9)
+ERR!     at Object.extensions..js (/Users/thafryer/Tutorials/with-playwright-app/node_modules/esbuild-register/dist/node.js:4807:24)
+ERR!     at Module.load (node:internal/modules/cjs/loader:1033:32)
+ERR!     at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1057:19)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+ERR!  /Users/thafryer/Tutorials/with-playwright-app/node_modules/@chromaui/archive-storybook/config/main.js:15
+ERR! export default config;
+ERR! ^^^^^^
+ERR! 
+ERR! SyntaxError: Unexpected token 'export'
+ERR!     at Object.compileFunction (node:vm:360:18)
+ERR!     at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+ERR!     at Module._compile (node:internal/modules/cjs/loader:1119:27)
+ERR!     at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+ERR!     at Object.newLoader (/Users/thafryer/Tutorials/with-playwright-app/node_modules/esbuild-register/dist/node.js:2262:9)
+ERR!     at Object.extensions..js (/Users/thafryer/Tutorials/with-playwright-app/node_modules/esbuild-register/dist/node.js:4807:24)
+ERR!     at Module.load (node:internal/modules/cjs/loader:1033:32)
+ERR!     at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+ERR!     at Module.require (node:internal/modules/cjs/loader:1057:19)
+ERR!     at require (node:internal/modules/cjs/helpers:103:18)
+node:child_process:935
+    throw err;
+    ^
+
+Error: Command failed: npx /Users/thafryer/Tutorials/with-playwright-app/node_modules/@storybook/cli/bin/index.js build -c node_modules/@chromaui/archive-storybook/config
+    at checkExecSyncError (node:child_process:861:11)
+    at Object.execSync (node:child_process:932:15)
+    at Object.<anonymous> (/Users/thafryer/Tutorials/with-playwright-app/node_modules/@chromaui/archive-storybook/dist/bin/build-archive-storybook.js:7:167)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 51339,
+  stdout: null,
+  stderr: null
+}

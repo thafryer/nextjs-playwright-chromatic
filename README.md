@@ -1,6 +1,8 @@
 # Next.js + Playwright
 
-This example shows how to configure Playwright to work with Next.js.
+This example shows how to configure Chromatic E2E Visual Tests + Playwright to work with Next.js.
+
+See node_modules/@chromaui/archive-storybook/config/main.js to see working Storybook Config
 
 ## Deploy your own
 
