@@ -4,7 +4,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "archive-storybook": "archive-storybook",
+    "build-archive-storybook": "build-archive-storybook",
+    "chromatic": "npx chromatic --build-script-name=build-archive-storybook -t=chpt_723fb3641d10d51"
   },
   "dependencies": {
     "next": "latest",
@@ -12,6 +15,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@chromaui/archive-storybook": "^0.0.6",
+    "@chromaui/test-archiver": "^0.0.12",
     "@playwright/test": "^1.15.0"
   }
 }
